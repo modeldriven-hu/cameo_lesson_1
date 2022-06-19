@@ -1,5 +1,4 @@
-# cameo_lesson_1
-Plugin development in Cameo - Lesson 1
+# Plugin development in Cameo - Lesson 1
 
 This is the first lession of how to develop a plugin for Cameo/MagicDraw. At the end of the lession you will have an environment and a very simple - hello world - example.
 
