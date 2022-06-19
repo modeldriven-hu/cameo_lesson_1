@@ -10,18 +10,28 @@ This is the first lession of how to develop a plugin for Cameo/MagicDraw. At the
 
 # Usage
 
-Check out the repository:
+## Check out the repository
 
 `git clone https://github.com/modeldriven-hu/cameo_lesson_1.git`
 
-Configure Cameo/MagicDraw root directory according to local setup:
+## Configure environment variable
 
-`set MAGICDRAW_ROOT=C:/home/Tools/Cameo`
+Configure Cameo/MagicDraw root directory according to local setup, for example:
 
-Build project using maven:
+`set CAMEO_ROOT=C:/home/Tools/Cameo`
+
+or when using PowerShell:
+
+`$env:CAMEO_ROOT = "C:/Home/Tools/Cameo"`
+
+## Build project
 
 `mvn package`
 
+## Extract into Cameo plugins folder
+
 Extract `target/hu.modeldriven.cameo.lesson1.zip` into `CAMEO_ROOT/plugins`
+
+## Restart
 
 Restart CAMEO

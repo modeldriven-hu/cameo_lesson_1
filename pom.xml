@@ -8,7 +8,7 @@
   <properties>
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
-    <magicdraw.home>C:/home/Tools/Cameo</magicdraw.home>
+    <magicdraw.home>${env.CAMEO_ROOT}</magicdraw.home>
     <magicdraw.lib>${magicdraw.home}/lib</magicdraw.lib>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
